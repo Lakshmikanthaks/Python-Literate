@@ -1,0 +1,10 @@
+monthNumbers = {'Jan':1, 'Feb':2, 'Mar':3, 'Apr':4, 'May':5, 1:'Jan', 2:'Feb', 3:'Mar', 4:'Apr', 5:'May'}
+print 'The third month is ' + monthNumbers[3]
+dist = monthNumbers['Apr'] - monthNumbers['Jan']
+print 'Apr and Jan are', dist, 'month apart' 
+
+keys = []
+for e in monthNumbers:
+    keys.append(e)
+keys.sort()
+print keys 
